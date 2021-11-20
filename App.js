@@ -5,13 +5,14 @@ import { Provider } from "./src/context/BlogContext";
 import IndexScreen from "./src/screens/indexScreen";
 import ShowScreen from "./src/screens/showScreen";
 import CreateScreen from "./src/screens/CreateScreen";
+import EditScreen from "./src/screens/EditScreen";
 
 const navigator = createStackNavigator(
   {
     Index: IndexScreen,
     Show: ShowScreen,
     Create: CreateScreen,
-    Edit: CreateScreen,
+    Edit: EditScreen,
   },
   {
     initialRouteName: "Index",
